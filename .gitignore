@@ -1,0 +1,19 @@
+# Ignore dependencies from npm and Composer:
+/node_modules
+
+package-lock.json
+package.json
+
+# Ignore generated JavaScript files:
+*.min.js
+
+# Ignore generated CSS files:
+style.css
+style-editor.css
+style-editor-extra.css
+
+# Ignore the generated zip file:
+
+
+# Ignore .DS_Store files from macOS:
+.DS_Store
