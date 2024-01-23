@@ -5,7 +5,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('bg-primary'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('mt-4'); ?>>
 <div class="container">
 	
 	<header class="entry-header">

@@ -30,7 +30,7 @@
 
 						if ( ! empty( $header_logo ) ) :
 					?>
-						<img src="<?php echo esc_url( $header_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+						<img src="<?php echo esc_url( $header_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="img-fluid" />
 					<?php
 						else :
 							echo esc_attr( get_bloginfo( 'name', 'display' ) );
